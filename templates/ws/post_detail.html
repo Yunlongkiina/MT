@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block content %}
+    <div class="post">
+        {% if post.date %}
+            <div class="date">
+                {{ post.date }}
+            </div>
+        {% endif %}
+        <h1>{{ post.title }}</h1>
+        <p>{{ post.content|linebreaksbr }}</p>
+    </div>
+{% endblock %}
+</body>
+</html>
