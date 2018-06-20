@@ -6,5 +6,6 @@ Back end we use Python + BS4 scrape news from given news website and show to fro
 
 Our schdule is:
 Scraping news
+
 visualize news
 
